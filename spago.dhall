@@ -1,5 +1,5 @@
 { name = "halogen-project"
-, dependencies = [ "halogen", "psci-support" ]
+, dependencies = [ "aff", "halogen", "math", "psci-support" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
